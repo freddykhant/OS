@@ -1,0 +1,30 @@
+ASSIGNMENT 1 README
+
+AUTHOR:
+
+Freddy Khant, 20618166
+
+USAGE:
+To compile the program, use the following command:
+
+make
+
+To run the program, use the following command with the appropriate command line arguments:
+
+./bank m tc tw td ti
+
+where:
+bank is the name of the executable program.
+m is the size/length of the customer queue (c_queue).
+tc is the periodic time for the customer to arrive in the queue.
+tw is the time duration to serve a cash withdrawal.
+td is the time duration to serve a cash deposit.
+ti is the time duration to serve an information request.
+
+
+for example:
+
+./bank 100 1 2 3 4
+
+OUTPUT:
+The program generates an output log file named r_log, which contains the activities of the customer queue and tellers. The log file includes the arrival time, response time, completion time, and statistics for each teller.
